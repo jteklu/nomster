@@ -21,6 +21,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use Will_Pagination for Querying Records and Displaying Page links 
 gem 'will_paginate', '~> 3.0.5'
 
+#Use Twitter will_paginate-bootstrap to style will_paginate
+gem 'will_paginate-bootstrap'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

@@ -26,11 +26,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-inverse .navbar-brand {
 	color: #AB0202;
 	font-family: 'amblebold', sans-serif;
-	font-size: 26px;
+	font-size: 32px;
 }
 
 body {
 	background: url('/assets/crossword.png');
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", 
 	"Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+.page_selector {
+	margin-bottom: 20px;
 }
