@@ -36,10 +36,9 @@
 
 <%= yield %>
 
-
-<div class="page_selector col-xs-10 col-xs-offset-1">
-  <%= will_paginate @places, renderer: BootstrapPagination::Rails %>
-</div>
+  <div class="page_selector col-xs-10 col-xs-offset-1">
+    <%= will_paginate @places, renderer: BootstrapPagination::Rails %>
+  </div>
 
 
 </body>
