@@ -7,4 +7,8 @@ class PlacesController < ApplicationController
 		#@places = Place.paginate :page => params[:page], :order => 'created_at DESC'
 		#@places = Place.paginate(:page => params[:page], :order => 'created_at DESC')
 	end
+
+	def new
+	end
+	
 end
