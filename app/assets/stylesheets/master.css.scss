@@ -37,4 +37,14 @@ body {
 
 .page_selector {
 	margin-bottom: 20px;
+	font-size: 16px;
+	font-family: 'amblebold', sans-serif;
+}
+
+.page_selector ul li a {
+	color: #AB0202
+}
+
+.page_selector ul.pagination li.active span {
+	background-color: #AB0202;
 }
