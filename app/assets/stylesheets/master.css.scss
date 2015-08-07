@@ -18,15 +18,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar.navbar-inverse {
-	background: url('/assets/greyzz_@2X.png');
+	background: url('assets/black-orchid.png');
+	background-color: #00adc4;
 	border-radius: 0;
+	border-color: #00adc4;
 	box-shadow: 1px 1px 3px #2a2a2a;
+	padding: 10px;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #6698B2;
-	font-family: 'amblebold_italic', sans-serif;
+	color: #006ca6;
+	font-family: 'amblenrbold_italic', sans-serif;
 	font-size: 32px;
+	font-weight: 600;
+}
+
+.new_place_link ul li a {
+	color: #006ca6;
+	font-family: 'amblenr_italic', sans-serif;
+	font-size: 16px;
 }
 
 body {
