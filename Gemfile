@@ -6,7 +6,6 @@ gem 'rails', '4.0.1'
 # Twitter Bootstrap-sass gem
 gem 'bootstrap-sass', '3.3.5.1'
 
-# Twitter Bootstrap-sass gem upgrad plug in support
 gem 'sprockets', '2.11.0'
 
 # Use postgresql as the database for Active Record
