@@ -8,6 +8,10 @@ gem 'bootstrap-sass', '3.3.5.1'
 
 gem 'sprockets', '2.11.0'
 
+gem 'simple_form'
+
+gem 'devise', '>= 3.2.4'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -37,8 +41,6 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
-gem 'simple_form'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
