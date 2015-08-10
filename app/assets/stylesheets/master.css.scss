@@ -58,3 +58,10 @@ body {
 .page_selector ul.pagination li.active span {
 	background-color: #6698B2;
 }
+
+.field_with_errors {
+	color: #ff3333;
+	background-color: #FFEEEE;
+	border-radius: 3px;
+	padding: 8px;
+}
