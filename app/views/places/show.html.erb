@@ -40,6 +40,7 @@
 
 <div class= "clear"></div>
 
+<!-- The code block below is for uploading comments -->
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -82,4 +83,14 @@
 			<small><%= comment.user.email %></small>
 		</blockquote>
 	</div>
+<% end %>
+
+<div class= "clear"></div>
+<br />
+
+<!-- The code block below is for picture uploading -->
+<%= simple_form_for @photo, :url => '#' do |f| %>
+	<%= f.input :picture %>
+	<%= f.input :caption %>
+	<%= f.submit "Upload a picture", :class => 'btn btn-primary' %>
 <% end %>
