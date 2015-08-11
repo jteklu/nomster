@@ -18,6 +18,8 @@ gem "geocoder"
 
 gem "figaro", ">=1.0.0"
 
+gem 'carrierwave'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
