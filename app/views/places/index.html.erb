@@ -9,17 +9,22 @@
 		<% end %>
 		<% if place.comments.present? %>
 			<div class="col-xs-12">
+				<% if place.comments.last.humanized_rating.present? %>
 			  <blockquote>
-			    <% if place.comments.last.humanized_rating.present? %>
 			      <b><%= place.comments.last.humanized_rating %></b> -
 			    <% end %>
-			    <%= place.photos.last.picture %>
 			    <%= place.comments.last.message %>
 			    <small><%= place.comments.last.user.email %></small>
 			  </blockquote>
 			</div>
 		<% end %>
+			<% if place.photos.last.present? && place.photos.last.picture.present? %>
+				<div class="col-xs-4">
+					<%= image_tag place.photos.last.picture, :class => "img-responsive" %>
+				</div>
+			<% end %>
 	</div>
+
 <% end %>
 
 <div class="clr"></div>

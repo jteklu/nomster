@@ -31,8 +31,6 @@
 	<br />
 
 	<div class ="pull-right">
-			<!-- Button trigger modal -->
-		
 		<% if current_user && current_user == @place.user %>
 			<%= link_to 'Add a picture', place_photos_path(@place), :class => 'btn btn-primary' %>
 			<%= link_to 'Edit', edit_place_path(@place), :class => 'btn btn-primary' %>
