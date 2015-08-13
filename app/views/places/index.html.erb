@@ -19,11 +19,11 @@
 			</div>
 		<% end %>
 			<% if place.photos.last.present? && place.photos.last.picture.present? %>
-				<div class="col-xs-4">
+				<div class="col-xs-12 col-sm-6 col-md-3 pull-right">
 					<%= image_tag place.photos.last.picture, :class => "img-responsive" %>
 				</div>
 			<% end %>
-	</div>
+</div>
 
 <% end %>
 

@@ -32,15 +32,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-inverse .navbar-brand {
 	color: #006ca6;
-	font-family: 'amblenrbold_italic', sans-serif;
-	font-size: 32px;
-	font-weight: 600;
+	font-family: 'Halvetica Neue' Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-variant: normal;
+	font-weight: 500;
 }
 
-.navbar-inverse li {
+.nav .navbar-nav .navbar-right {
 	color: #006ca6;
 	font-family: 'amblenr_italic', sans-serif;
-	font-size: 16px;	
+	font-size: 14px;	
 }
 
 body {
