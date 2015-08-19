@@ -18,7 +18,7 @@
 	<br /><br />
 	<% @user.comments.each do |comment| %>
 
-		<div class ="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-1">
+		<div class ="col-xs-12 col-sm-6">
 			<h2 class="col-xs-12 col-sm-6"><%= link_to comment.place.name, place_path(comment.place) %></h2>
 
 			<blockquote>
